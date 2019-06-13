@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Art name:</strong>
+  <%= @supply.art_name %>
+</p>
+
+<p>
+  <strong>Art type:</strong>
+  <%= @supply.art_type %>
+</p>
+
+<p>
+  <strong>Del date:</strong>
+  <%= @supply.del_date %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @supply.stock %>
+</p>
+
+<%= link_to 'Edit', edit_supply_path(@supply) %> |
+<%= link_to 'Back', supplies_path %>

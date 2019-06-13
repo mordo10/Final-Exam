@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  art_name: MyString
+  art_type: MyString
+  del_date: 2019-06-13
+  stock: 1
+
+two:
+  art_name: MyString
+  art_type: MyString
+  del_date: 2019-06-13
+  stock: 1
